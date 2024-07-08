@@ -186,6 +186,15 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
+   File: BigFix.py
+   The BigFix Python class (and any related external routines)
+   An object class capable of working in mostly-normal numpy.py
+   routines, including libraries buit on top of python and numpy
+   libraries such as Tensorflow and Pytorch.
+   The class objects maintain a fixed-point integer representation
+   of a value, using multi-precision integers native to python and numpy (BigInts)
+   All versions < 1.0 are transitory and offer no guarantees of functionality.
+   BigFix v0.0.1
    Copyright 2024 James Richard Huddle
 
    Licensed under the Apache License, Version 2.0 (the "License");
